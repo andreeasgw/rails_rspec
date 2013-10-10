@@ -1,6 +1,6 @@
 class ContactsController < ApplicationController
-  before_filter :authenticate, except: [:index, :show]
-  load_and_authorize_resource
+#  before_filter :authenticate, except: [:index, :show]
+#  load_and_authorize_resource
 
   # GET /contacts
   # GET /contacts.json
